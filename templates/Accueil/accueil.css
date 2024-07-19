@@ -1,0 +1,40 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background:black;
+}
+
+.deconnect{
+    width: 20px;
+}
+
+.connected{
+    height:60px;
+    width:200px;
+    text-align :center;
+    padding-block: 1%;
+    color:white;
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: rgb(26, 25, 25);
+}
+
+.connected>a{
+    margin-left: 5%;
+}
+
+h1{
+    background: linear-gradient(120deg,blue,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-size: 2rem;
+    text-align:center
+}
